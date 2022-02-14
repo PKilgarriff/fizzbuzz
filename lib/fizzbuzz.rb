@@ -8,5 +8,5 @@
 # If none of the above are true, return the number itself
 
 def fizzbuzz(number)
-  
+  'fizz' if number == 3
 end
