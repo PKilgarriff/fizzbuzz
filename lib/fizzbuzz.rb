@@ -8,14 +8,8 @@
 # If none of the above are true, return the number itself
 
 def fizzbuzz(number)
-  case number
-  when 3
-    return 'fizz'
-  when 5
-    return 'buzz'
-  when 15
-    return 'fizzbuzz'
-  else
-    return number
-  end
+  return 'fizzbuzz' if number == 15
+  return 'fizz' if number % 3 == 0
+  return 'buzz' if number == 5  
+  return number
 end
