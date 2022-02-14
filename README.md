@@ -1,3 +1,3 @@
 # fizzbuzz
 
-Checking the repo.
+Checking the repo for collaboration.
