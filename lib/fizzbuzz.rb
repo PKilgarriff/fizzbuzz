@@ -13,5 +13,7 @@ def fizzbuzz(number)
     return 'fizz'
   when 5
     return 'buzz'
+  when 15
+    return 'fizzbuzz'
   end
 end
